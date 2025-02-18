@@ -1,0 +1,10 @@
+table{
+    margin-top: 30px;
+    text-align: center;
+}
+.body th, .body td{
+    padding: 0 1vw;
+    height: 5vh;
+    border: 1px solid;
+    background-color: whitesmoke;
+}

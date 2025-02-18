@@ -1,0 +1,114 @@
+:root {
+    --text-primary: whitesmoke;
+    --text-secondary: black;
+    --text-tertiary: rgb(82, 82, 82);
+    --bg-primary: #5dbefe;
+    --bg-secondary: #c2e0ff;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+}
+
+::-webkit-scrollbar {
+    width: 0.35rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #424242;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #676767;
+}
+
+body {
+    margin: 0;
+    font-family: "Lexend", sans-serif;
+    background-color: var(--bg-secondary);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: var(--bg-primary);
+    font-size: 20px;
+    padding: 0 0.5vw;
+    z-index: 10;
+    height: 5ex;
+}
+
+.navbar a {
+    display: flex;
+    color: var(--text-primary);
+    padding: 0 1.5ch;
+    height: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    gap: 5%;
+}
+
+.navbar>a:hover,
+.navbar .active-page {
+    background-color: #36a0fc;
+    font-size: 23px;
+}
+
+.navbar .logout {
+    margin-left: auto;
+}
+
+.body {
+    margin: 3vh 10vw;
+}
+
+.body .page-heading {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.body .content-heading {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.btn:hover {
+    background: #36a0fc;
+    color: var(--text-primary);
+}
+
+footer {
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: var(--bg-primary);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    height: 6ex;
+}
+
+footer p {
+    margin-top: auto;
+    margin-bottom: auto;
+}

@@ -1,0 +1,27 @@
+.search {
+    border-radius: 5px;
+    border-width: 1.5px;
+    height: 30px;
+    width: 200px;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #36a0fc;
+}
+
+.pagination a:hover {
+    background-color: #36a0fc;
+    color: whitesmoke;
+}
+
+.pagination .active-page {
+    background-color: #5dbefe;
+    color: whitesmoke;
+}
